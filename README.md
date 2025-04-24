@@ -195,7 +195,7 @@ A strategic realignment is required to safeguard liquidity, improve working capi
 
 
 ## 🔗 Dashboard Access  
-➡️ https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
+📊 [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9)
 
 ---
 
@@ -216,6 +216,7 @@ Power BI | SQL | Excel | VBA | ETL | Business Intelligence | KPI Development
 
 ---
 
-**📬 Feel free to reach out to me if you’d like to connect, collaborate, or discuss data!**
-  -➡️ https://www.linkedin.com/in/miguel-angelo-015782198/
+**📬 Let’s connect! - Feel free to reach out to me if you’d like to connect, collaborate, or discuss data!**
+- 📧 angeloanalises@gmail.com  
+- 💼 [LinkedIn](https://www.linkedin.com/in/miguel-angelo-015782198/)
 
