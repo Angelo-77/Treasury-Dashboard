@@ -105,18 +105,117 @@ This dashboard enables managers to:
 ---
 
 
+## 📊 Final Business Analyst Report – Treasury Project (Fiscal Year 2024)
+
+## 📌 Executive Summary
+
+The fiscal year 2024 presented critical insights into the company’s **Accounts Receivable (AR)** and **Accounts Payable (AP)** management. Through detailed KPI monitoring and financial statement analysis, we've identified areas of operational strength and urgent opportunities for improvement within the **financial cycle**.
+
+---
+
+## 📈 Accounts Receivable (AR) Analysis – FY 2024
+
+### 🚨 Performance Against Goal
+- **Achievement**: Only **60%** of the expected target was reached.
+- **Implication**: This considerable gap reflects **underperformance in sales revenue**, demanding **urgent commercial strategies** such as enhanced marketing campaigns, promotional offers, and customer acquisition efforts.
+
+### 💵 Cash Collected
+- **Decrease of 4%** YoY.
+- **Implication**: A decline in liquidity despite increasing credit sales highlights a **dangerous cash trap**—money is left on the table, limiting our ability to **invest in growth and innovation**.
+
+### 🧾 Credit Sales vs. Cash Sales
+- Credit sales have **increased**, putting additional pressure on cash flow.
+- **Strategic Risk**: A growing imbalance between cash inflows and outflows negatively impacts the **Financial Operating Cycle**, particularly if AP terms remain short.
+
+### 🕒 DSO (Days Sales Outstanding)
+- DSO increased **76% YoY**.
+- **Implication**: Customers are taking significantly longer to pay. This points to **ineffective credit control policies** and demands a reassessment of:
+  - **Receivables policies**
+  - **Customer credit risk segmentation**
+  - **Collections process**
+  - **Provisioning for Doubtful Accounts**
+
+---
+
+## 🧾 Accounts Payable (AP) Analysis – FY 2024
+
+### 📉 Goal Management
+- **Performance**: Stayed **5% below target**, which indicates a **positive cost containment strategy**.
+- **Insight**: Expense controls were well-executed, even with increased revenue—showing maturity in **financial discipline**.
+
+### 📦 Purchasing Trends
+- Despite revenue growth, **total purchasing decreased**.
+- **Interpretation**: Strong evidence of **cost efficiency** and optimal inventory or supplier management.
+
+### 💰 AP Balance
+- **Reduced by ~6%** during the year.
+- Indicates improved **cash flow management** and a focus on reducing short-term liabilities without jeopardizing operations.
+
+---
+
+## 🔍 Treasury Alignment – Cash Flow vs. Outstanding Balances
+
+### 📊 End-of-Year Mismatch
+- **Net Treasury Position**: A **-32M cash flow** difference due to over-expenditure in the final quarter.
+- **Implication**:
+  - Reinforces the need for tighter **receivables recovery policies**.
+  - Suggests a potential review of **bad debt provisioning practices**.
+  - Highlights timing issues between **incoming receivables** and **outgoing payments**, undermining liquidity planning.
+
+---
+
+## 🧠 Strategic Recommendations
+
+1. **Revamp AR Strategy**:
+   - Implement **stricter payment terms** and automated reminders.
+   - Introduce **customer credit scoring** and incentivize early payments.
+   - Monitor and update **provision for doubtful debts** quarterly.
+
+2. **Sales & Marketing Activation**:
+   - Launch initiatives to **boost revenue** while ensuring payment enforceability.
+   - Consider **factoring or receivables financing** as interim solutions.
+
+3. **Cash Flow Forecasting**:
+   - Apply dynamic cash flow models to anticipate mismatches.
+   - Integrate **dashboards for real-time liquidity tracking**.
+
+4. **Leverage AP Strength**:
+   - Negotiate **longer payment terms** with suppliers.
+   - Use strong AP performance as leverage in contract renegotiations.
+
+---
+
+## 📌 Conclusion
+
+The company’s **AP strategy is commendable**, reflecting solid financial discipline and supplier relationship management. However, the **AR function represents a significant risk** to sustainable growth due to deteriorating cash conversion and excessive reliance on credit sales. 
+
+A strategic realignment is required to safeguard liquidity, improve working capital turnover, and enable investment in future growth initiatives.
+
+---
+
 
 ## 🔗 Dashboard Access  
 ➡️ https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
 
 ---
 
+## 👤 About Me
 
+I’m a results-driven **Data Analyst and Business Intelligence professional** with a strong foundation in **Power BI, SQL, Excel (including VBA), and KPI Management**. With experience spanning engineering, tax, and commercial sectors, I bring a unique blend of technical expertise and business strategy to every project I take on.
 
+My career journey includes working at industry-leading companies like **Deloitte** and **Ambev**, where I automated processes, built dashboards, and translated complex data into meaningful insights. At **Deloitte**, I specialized in **Direct and Indirect Tax**, developing critical control workpapers and delivering the firm’s **first Power BI dashboard for Direct Taxes**. At **Ambev**, part of **AB InBev** (the world’s largest brewery), I created automated controls and VBA tools to evaluate sales and product performance.
 
+Most recently, at **Draft Solutions**, an engineering consulting firm, I served as a **Senior Planning Analyst**. I managed engineering contracts, developed dashboards to monitor project KPIs, and designed macros for revenue forecasting and goal tracking. I also conducted **CAPEX calculations for Conceptual Engineering Projects**.
 
-## 👤 About Me  
-I have a degree in **Accounting** and experience working at **Deloitte** and in financial planning roles.  
-This project is part of my career transition to a **Data Analyst** role in **Germany**, with a focus on **Finance & BI**.
+I hold a degree in **Accounting from PUC Minas**—recognized as the **largest Catholic university in the world**. While there, I received an academic award for developing a VBA tool to analyze the J150 block of the ECD, representing a company’s **Income Statement structure**.
 
-Feel free to connect or reach out if you'd like to collaborate or have feedback!
+I’m passionate about creating powerful BI solutions that improve decision-making, automate workflows, and drive measurable results.
+
+**🔧 Technical Skills**:  
+Power BI | SQL | Excel | VBA | ETL | Business Intelligence | KPI Development  
+
+---
+
+**📬 Feel free to reach out to me if you’d like to connect, collaborate, or discuss data!**
+  -➡️ https://www.linkedin.com/in/miguel-angelo-015782198/
+
