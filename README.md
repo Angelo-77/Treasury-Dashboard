@@ -22,13 +22,15 @@ To create an interactive and insightful dashboard in **Power BI** capable of:
 
 
 ## 🔍 Data Overview  
-Two main Fact datasets were used in this project:  
+Two main Fact datasets were used in this project: 
+- `fInvoicing`: Accounts Receivable data:
+![Image](https://github.com/user-attachments/assets/fa460ada-54a4-45ad-aa84-51dcefe4ea65)
 
-- `fInvoicing`: Accounts Receivable data  
 - `fPurchasing`: Accounts Payable data
+![Image](https://github.com/user-attachments/assets/b7642d6b-774f-4f7d-9758-d7b7f4ff02a9)
 
 One dCalendar used for dates and relatioships (created with PowerQuery):
-
+![Image](https://github.com/user-attachments/assets/0e94e430-30ca-488d-bd71-02101b923e71)
 
  
 ## 🧠 KPIs Implemented  
@@ -63,23 +65,23 @@ This dashboard enables managers to:
 ## 📁 Dashboard Pages
 
 ### 1. 📄 AR – Sales Overview  
-![AR Overview](link-to-image-1)
+![Image](https://github.com/user-attachments/assets/40ff43d0-dbbd-474e-ac81-74c01daee0b8)
 
 ### 2. 📄 AR – Sales Detail  
 > Focused on invoice-level data exploration  
-![AR Sales Detail](link-to-image-2)
+![Image](https://github.com/user-attachments/assets/9a2b2535-bfc9-48f2-9ee7-aca3d7a13427)
 
 ### 3. 📄 AR – Cash Flow Analysis  
 > Insights related to cash inflows from receivables  
-![AR Cash Flow](link-to-image-3)
+![Image](https://github.com/user-attachments/assets/52553cf3-a73e-457e-918e-4d11d15a079a)
 
 ### 4. 📄 AR – Balance Analysis  
 > Insights related to balance from receivables  
-![AR Cash Flow](link-to-image-3)
+![Image](https://github.com/user-attachments/assets/216429e6-5c49-49ff-821b-9094d7c07904)
 
 ### 5. 📄 AR – KPI Management
 > KPI Management  
-![AR Cash Flow](link-to-image-3)
+[![Image](https://github.com/Angelo-77/Treasury-Dashboard/issues/8#issue-3017292035)](https://github.com/Angelo-77/Treasury-Dashboard/issues/8#issue-3017292035)
 
 ### 6. 📄 AP – Purchasing Overview  
 ![AP Overview](link-to-image-4)
