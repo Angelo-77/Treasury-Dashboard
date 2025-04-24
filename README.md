@@ -84,32 +84,36 @@ This dashboard enables managers to:
 ![Image](https://github.com/user-attachments/assets/88ba3b0d-847e-422d-8110-637041fb7487)
 
 ### 6. 📄 AP – Purchasing Overview  
-![AP Overview](link-to-image-4)
+![Image](https://github.com/user-attachments/assets/a65dcbdf-41cc-455e-89d3-8503b6505d99)
 
 ### 7. 📄 AP – Purchase Detail  
 > Focused on invoice-level data exploration  
-![AR Sales Detail](link-to-image-2)
+![Image](https://github.com/user-attachments/assets/2b12b425-eaa4-4449-81e4-bb2dfcb68c88)
 
 ### 8. 📄 AP – Cash Flow Analysis  
 > Understanding payment behavior and outflows  
-![AP Cash Flow](link-to-image-5)
+![Image](https://github.com/user-attachments/assets/041454b7-e0eb-4be2-937c-8f80fb93eae9)
 
 ### 9. 📄 AP – Balance Analysis  
 > Insights related to balance from payables  
-![AP Cash Flow](link-to-image-5)
+![Image](https://github.com/user-attachments/assets/0dfde55a-2a67-4f55-aa9d-d47b2b2b3c80)
 
 ### 10. 📄 AP – KPI Management  
 > Insights related to balance from payables  
-![AP Cash Flow](link-to-image-5)
+![Image](https://github.com/user-attachments/assets/1c30f89d-4ca8-4cad-9e22-8fd15728a035)
 
 ---
 
 
 
 ## 🔗 Dashboard Access  
-➡️ [Click here to view the published dashboard](link-to-your-dashboard)
+➡️ [Click here to view the published dashboard]([link-to-your-dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9))
 
 ---
+
+
+
+
 
 ## 👤 About Me  
 I have a degree in **Accounting** and experience working at **Deloitte** and in financial planning roles.  
