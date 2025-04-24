@@ -107,7 +107,7 @@ This dashboard enables managers to:
 
 
 ## 🔗 Dashboard Access  
-➡️ [Click here to view the published dashboard]([link-to-your-dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9))
+➡️ https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
 
 ---
 
