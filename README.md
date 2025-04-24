@@ -81,7 +81,7 @@ This dashboard enables managers to:
 
 ### 5. 📄 AR – KPI Management
 > KPI Management  
-[![Image](https://github.com/Angelo-77/Treasury-Dashboard/issues/8#issue-3017292035)](https://github.com/Angelo-77/Treasury-Dashboard/issues/8#issue-3017292035)
+![Image](https://github.com/user-attachments/assets/88ba3b0d-847e-422d-8110-637041fb7487)
 
 ### 6. 📄 AP – Purchasing Overview  
 ![AP Overview](link-to-image-4)
