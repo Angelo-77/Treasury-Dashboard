@@ -1,0 +1,126 @@
+## 💹 Dax Measures
+
+# 🧲 Here are some examples of measures, i`m not showing all formulas. If you want all measures, you can contact with me. 
+
+# 💹 General Measures
+
+● M_AR | $ Purchasing Forecasting + Symbol = 
+VAR YoY = [M_AP | % YoY Purchasing Forecast]
+VAR vInv = [M_AP | $ Purchasing Forecasting]
+VAR vIntInt= 
+    SWITCH(TRUE(),
+    ABS(vInv) >= 1000000000, FORMAT(vInv / 1000000000, "0.0") & "bn",
+    ABS(vInv) >= 1000000, FORMAT(vInv / 1000000, "0.0") & "M",
+    FORMAT(vInv,"#,##0"))
+
+VAR Symbol = 
+    SWITCH(TRUE(),
+        YoY < 0, " ▼",
+        YoY > 0, " ▲",
+        YoY = 0, "->",
+        BLANK()
+    )
+RETURN 
+    FORMAT(vIntInt, "#,##0") & Symbol
+
+● M_AP | $ Total Purchasing DueDate = 
+    CALCULATE(
+        [M_AP | $ Total Purchasing],
+        USERELATIONSHIP(dCalendar[Date],fPurchasing[DueDate]))
+
+
+● T_AP | Text Period Invocing = 
+
+var vMonth = SELECTEDVALUE(dCalendar[Short Month])
+var vYear = SELECTEDVALUE(dCalendar[Year])
+var vSource = SELECTEDVALUE(dSourcePurchasing[DOM/IMP])
+VAR vCurrency = SELECTEDVALUE(dCurrency[InvCCY])
+
+RETURN
+
+IF(
+        ISBLANK(vMonth) && ISBLANK(vYear) && ISBLANK(vSource) && ISBLANK(vCurrency),
+        "Running Total",
+        vMonth & " " & vYear & " " & vSource & " " & vCurrency
+)
+
+
+# 💰 CashFlow Measures
+
+● M_AP | % Balance Vs Total = 
+
+var vTotal = 
+    CALCULATE([M_AP | $ Total Purchasing DueDate],
+    ALL(dSuppliers[SupplierName]),
+    ALL(fPurchasing[SupplierID])
+    )
+
+var vScope = 
+    CALCULATE([M_AP | $ Purchasing Balance CF],
+    ALL(fPurchasing[InvoiceID])
+    )
+
+
+RETURN
+
+    IF(
+        ISINSCOPE(fPurchasing[InvoiceID]),
+
+        DIVIDE(
+            [M_AP | $ Purchasing Balance CF],
+            vScope
+        ),
+
+        DIVIDE([M_AP | $ Purchasing Balance CF],
+        [M_AP | $ Total Purchasing])
+    )
+
+
+● M_AP | $ Purchasing Balance CF = 
+
+var vTotalPurchasing = [M_AP | $ Total Purchasing DueDate] 
+
+var vPaid = CALCULATE(
+    [M_AP | $ Total Purchasing DueDate],
+    fPurchasing[Paid?] = "PAID"
+)
+
+RETURN
+
+vTotalPurchasing - vPaid
+
+
+🔥KPIs Measures
+
+
+● M_AR | $ Aging 60 Days = 
+     CALCULATE([M_AR | $ Invoicing],fInvoicing[Aging Group Type] = "Aging 60 Days",
+           USERELATIONSHIP(dCalendar[Date],fInvoicing[DueDate]))
+
+● M_AR | Average Days to Pay = 
+    AVERAGEX(fPayments,
+    DATEDIFF(fPayments[InvoiceDate],fPayments[PmtDate],DAY)
+    )
+
+● M_AR | % YoY DSO Second Method = 
+    IF(
+        ISBLANK(SELECTEDVALUE(dCalendar[Year])) || [M_AR | $ DSO Second Method LY] = 0 || 
+        ISBLANK([M_AR | $ DSO Second Method LY]),"-",
+            DIVIDE([M_AR | $ DSO Second Method],
+            [M_AR | $ DSO Second Method LY]) 
+            - 1)
+
+  ● M_AR | % YoY CEI = 
+    IF(
+        ISBLANK(
+            SELECTEDVALUE(dCalendar[Year])) || 
+                [M_AR | % CEI LY] = 0 
+                || ISBLANK(
+                    [M_AR | % CEI LY]),"-",
+                    DIVIDE
+                    ([M_AR | % CEI],
+                    [M_AR | % CEI LY]) 
+                    - 1
+    )
+
+
