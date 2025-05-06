@@ -195,7 +195,7 @@ A strategic realignment is required to safeguard liquidity, improve working capi
 
 
 ## 🔗 Dashboard Access  
-📊 [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzdmYmI1MjUtMzMyNy00OTg3LWI3ZWQtMzU0OWJkNTBjYTE5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9)
+📊 [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWI5YzViM2YtYTllNS00M2MyLWE2ODYtZWRiNzhiMDkyZGQ3IiwidCI6IjA1Y2JhZTNmLTc3YTAtNGVlMS05NGUzLTM5M2VhNWY1NmMwNyJ9)
 
 ---
 
